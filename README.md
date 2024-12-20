@@ -5,9 +5,7 @@ Java, gradle, wpilib, PhotonVision, PathPlanner, and various vendor libraries to
 Also tools to control the robot and read data like Shuffleboard and AdvantageScope.
 
 ## Work Split
-This was a collaboration with the [other programmer on the team](https://github.com/Pickles888), who managed reimplementing some features from the 2024 on season robot as an exercise, as well as some early versions of the intake and feeder subsystems. I can't take credit for every line in this repo, but I was the one managing the project.
-
-Some areas that I've worked on so far that I want to highlight are the vision and pose estimation on the robot, as well as the drive train subsystem. In addition, this is a language and framework I've spent a lot of time in. I'm very proud of this from a design perspective and think it demonstrates a lot of really cool design patterns and organization, despite Java not being the most practical language.
+This was a collaboration with the [other programmer on the team](https://github.com/Pickles888), who implemented some older features from the 2024 on-season robot as an exercise, as well as some early versions of the intake and feeder subsystems. The areas I'm highlighting are parts that I had exclusively worked on.
 
 ## Vision
 
