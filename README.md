@@ -17,3 +17,22 @@ Last year was our first robot that employed cameras and made use of vision tools
 
 For the past year or so we've been working on swerve drive robots, a type of drivetrain where for each "module" there is a motor to spin a wheel, and another to orient it. Enough of these modules results in a type of drive called holonomic drive, where regardless of position and orientation, the robot can be sent off in any direction, allowing for some really interesting and complex maneuvers while moving the robot. This isn't the first swerve drive subsystem I've written but when writing this version there was a major focus on readability, organization, maintainability, and personalization to our team. It was my first time working on a swerve drive with another person, so this wasn't just a coding project, but a teaching project as well, one of the reasons why I wanted this to be as readable as possible. I also created a smaller [Python demo](https://github.com/njbizzle/SwerveDriveDemo) right at the start of the project to show the math behind the swerve drive.
 
+### Some Images From the Swerve Math Demo
+
+#### Example With 4 Modules (I've never seen a team that doesn't do 4 modules)
+<img src="pictures/Figure_1.png">
+
+#### Example With 8 Modules (It's cool to see and it demonstrates how general the math is)
+<img src="pictures/Figure_3.png">
+
+## LEDs
+
+I got pretty fed up trying to make use of other peoples LED display code. CTRE (who made all the hardware) had a pretty unintiutive and limmited system for managing what pattern was being sent to the LEDs. I wrote a small bit of code to manage different patterns, states, mix patterns, transiton between patterns, and a few other tools. I ended up really enjoying it just as a design project, and it turned out really well. You describe patterns with a function that takes in variables like time (it could be periodic or not), position through the LED strip, and a few other factor that can be set up, then you just need to spit back a color. It makes it super simple because all these patterns can be desciped mathamatically. It also has the ablity to scale patterns up and down to fit it to different LED strip sizes.
+
+This existed in some form on our on-season robot, and it made it really easy to convey the state of the robot from really far away. Overall its a super general tool and I'm really happy with how it turned out.
+
+Here's an older example pattern.
+
+[![](https://img.youtube.com/vi/YQFC4AxMUEw/0.jpg)](https://www.youtube.com/watch?v=YQFC4AxMUEw)
+
+We also made use of these tools to have the led stip indicate where the cameras detected a vision target to be. It pretty much just illumintated the LEDS that were in the direction of the target, and the number of LEDs illuiminated corristponed to the target distance.
