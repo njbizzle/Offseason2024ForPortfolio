@@ -39,4 +39,4 @@ Here's an older example pattern.
 
 [![](https://img.youtube.com/vi/YQFC4AxMUEw/0.jpg)](https://www.youtube.com/watch?v=YQFC4AxMUEw)
 
-We also made use of these tools to have the led stip indicate where the cameras detected a vision target to be. It pretty much just illuminated the LEDS that were in the direction of the target, and the number of LEDs illuminated corresponded to the target distance. I don't really have an easy way to set that up again and sadly I never documented it.
+We also made use of these tools to have the LED strip indicate where the cameras detected a vision target to be. It pretty much just illuminated the LEDS that were in the direction of the target, and the number of LEDs illuminated corresponded to the target distance. I don't really have an easy way to set that up again and sadly I never documented it.
