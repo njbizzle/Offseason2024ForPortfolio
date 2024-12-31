@@ -4,6 +4,10 @@
 
 This is a copy of the [original repository](https://github.com/Drew-Robotics/offseason-2024) off of the github page for the FRC robotics team I'm on (#8852). I wanted to keep this description separate from the page representing the entire team.
 
+## Overview
+
+This is the most recent repository for the robotics team which I am lead programmer for. I was the main person managing this repository but there were other people who wrote sections. One of the main features that I worked on was the implementation of a swerve drivetrain, which this season especially was designed to integrate easily into our autonomous pathing and vision software. Vision was another large undertaking for the offseason. I worked on writing the vision subsystem and camera classes, as well as configuring the hardware and firmware, all of which works together to build an estimation of our robot's position. The LED system was also a section that I spent a lot of time. I built up tools to quickly make and manage different patterns to help convey the status of our robot from far away (also they look really cool).
+
 ## Tools Used
 
 Java, gradle, wpilib, PhotonVision, PathPlanner, and various vendor libraries to interact with hardware on the robot (rev robotics, kauai labs, playing with fusion, and others).
