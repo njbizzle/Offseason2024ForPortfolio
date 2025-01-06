@@ -39,11 +39,11 @@ For the past year or so we've been working on swerve drive robots, a type of dri
 
 ### Some Images From the Swerve Math Demo
 
-#### Example With 4 Modules (I've never seen a team that doesn't do 4 modules)
-<img src="pictures/Figure_1.png">
+#### Example With 4 Modules (I've never seen a team that doesn't do 4 modules.)
+![](pictures/Figure_1.png)
 
-#### Example With 8 Modules (It's cool to see and it demonstrates how general the math is)
-<img src="pictures/Figure_3.png">
+#### Example With 8 Modules (It's cool to see and it demonstrates how general the math is.)
+![](pictures/Figure_3.png)
 
 ## LED System
 
@@ -51,7 +51,7 @@ CTRE, the company that makes the LED hardware, had a limited system for managing
 
 This existed in some form on our on-season robot and it made it really easy to convey the state of the robot from really far away. Overall it's a generally applicable tool and I'm really happy with how it turned out.
 
-Here's an older example pattern.
+Here's an older example pattern. (YouTube link in the image)
 
 [![](https://img.youtube.com/vi/YQFC4AxMUEw/0.jpg)](https://www.youtube.com/watch?v=YQFC4AxMUEw)
 
