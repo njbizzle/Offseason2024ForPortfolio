@@ -1,3 +1,8 @@
+---
+geometry: margin=3cm
+colorlinks: true
+---
+
 # First Robotics Competition Offseason 2024 Codebase
 
 #### This is the codebase for our most recent FRC robot. Notable capabilities are vision and position estimation, the drivetrain, and the LED tools.
