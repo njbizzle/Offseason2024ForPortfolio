@@ -11,16 +11,23 @@ This is a copy of the [original repository](https://github.com/Drew-Robotics/off
 
 ## Overview
 
-This is the most recent repository for FRC team 8852, which I worked on as lead programmer. I was the main person managing this repository but there were other people who wrote sections. One of the main features that I worked on was the implementation of a swerve drivetrain, which this season especially was designed to integrate easily into our autonomous pathing and vision software. Vision was another large undertaking for the offseason. I worked on writing the vision subsystem and camera classes, as well as configuring the hardware and firmware, all of which works together to build an estimation of our robot's position. Additionally, the LED system is new on this project. I built up tools to quickly make and manage different patterns to help convey the status of our robot from far away (also they look really cool).
+This project is the most recent repository for FRC team 8852, which I work on as lead programmer. I managed this repository but there were other people who wrote sections of the code. One of the main features that I worked on was the implementation of a swerve drivetrain, which was specifically designed to integrate easily into our autonomous pathing and vision software. Vision was another large undertaking for the offseason. I worked on writing the vision subsystem and camera classes, as well as configuring the associated hardware and firmware, all of which works together to build an estimation of our robot's position. Additionally, the LED system is new on this project. I built tools to quickly create and manage different LED patterns to help convey the status of our robot from far away. 
 
 ## Tools Used
 
-Java, gradle, wpilib, PhotonVision, PathPlanner, and various vendor libraries to interact with hardware on the robot (rev robotics, kauai labs, playing with fusion, and others).
-Also tools to control the robot and read data like Shuffleboard and AdvantageScope.
+The language used is Java. The following tools and software packages are also used:
+
+Gradle to build
+WPILib for FRC tools
+PhotonVision
+PathPlanner
+Various vendor libraries to interact with hardware (e.g., Rev Robotics, Kauai Labs, Playing With Fusion among others). 
+
+Additionally, we used certain tools to control the robot and visualize data such as Shuffleboard and AdvantageScope.
 
 ## Work Split
 
-This was a collaboration with the [other programmer on the team](https://github.com/Pickles888), who is in the process of reimplementing autonomous driving from the 2024 on-season robot. They had also written some early versions of the intake and feeder subsystems. The sections highlighted here are the parts I worked on exclusively.
+This was a collaboration with [one other programmer on the team](https://github.com/Pickles888), who is in the process of reimplementing autonomous driving from our 2024 on-season robot. They had also written early versions of the intake and feeder subsystems. The sections highlighted in this portfolio are parts I worked on exclusively.
 
 ## Vision
 
@@ -40,9 +47,9 @@ For the past year or so we've been working on swerve drive robots, a type of dri
 
 ## LED System
 
-I got pretty annoyed trying to use other people's LED code. CTRE (the company that made all LED hardware) had a limited system for managing what patterns were being sent to the LEDs. I wrote some code to manage different patterns, states, mix patterns, transition between patterns, and a few other tools. I ended up really enjoying it as a design project, and it turned out really well. Patterns are described with a function that takes in variables like time, progress through the defined LED strip, and a few other factors that can be set up, then you just need to return a color. It makes it super simple to describe patterns mathematically.
+CTRE, the company that makes the LED hardware, had a limited system for managing what patterns were sent to the LED strips. Wanting more flexibility, I wrote code to manage different patterns, states, mix patterns, transition between patterns, as well as a few other features. I ended up enjoying it as a design project and I'm proud of the way it turned out. Patterns are described with a function that takes in variables such as time and position in the LED strip to determine a color. The implementation is an elegant way to describe patterns mathematically.
 
-This existed in some form on our on-season robot, and it made it really easy to convey the state of the robot from really far away. Overall it's a super generally applicable tool and I'm really happy with how it turned out.
+This existed in some form on our on-season robot and it made it really easy to convey the state of the robot from really far away. Overall it's a generally applicable tool and I'm really happy with how it turned out.
 
 Here's an older example pattern.
 
