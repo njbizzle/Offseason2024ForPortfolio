@@ -11,7 +11,7 @@ This is a copy of the [original repository](https://github.com/Drew-Robotics/off
 
 ## Overview
 
-This is the most recent repository for FRC team 8852, which I worked on as lead programmer. I was the main person managing this repository but there were other people who wrote sections. One of the main features that I worked on was the implementation of a swerve drivetrain, which this season especially was designed to integrate easily into our autonomous pathing and vision software. Vision was another large undertaking for the offseason. I worked on writing the vision subsystem and camera classes, as well as configuring the hardware and firmware, all of which works together to build an estimation of our robot's position. Addidionally, the LED system is new on this project. I built up tools to quickly make and manage different patterns to help convey the status of our robot from far away (also they look really cool).
+This is the most recent repository for FRC team 8852, which I worked on as lead programmer. I was the main person managing this repository but there were other people who wrote sections. One of the main features that I worked on was the implementation of a swerve drivetrain, which this season especially was designed to integrate easily into our autonomous pathing and vision software. Vision was another large undertaking for the offseason. I worked on writing the vision subsystem and camera classes, as well as configuring the hardware and firmware, all of which works together to build an estimation of our robot's position. Additionally, the LED system is new on this project. I built up tools to quickly make and manage different patterns to help convey the status of our robot from far away (also they look really cool).
 
 ## Tools Used
 
