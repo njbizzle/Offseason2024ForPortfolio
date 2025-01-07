@@ -1,6 +1,6 @@
 # First Robotics Competition Offseason 2024 Codebase
 
-#### This is the codebase for our most recent FRC robot. Notable capabilities that I would like to showcase are vision and position estimation, the drivetrain, and the LED tools.
+#### The codebase for our most recent FRC robot. Notable capabilities that I would like to showcase are vision and position estimation, the drivetrain, and the LED tools.
 
 This is a copy of the [original repository](https://github.com/Drew-Robotics/offseason-2024) from the GitHub page for the FRC robotics team that I co-founded (#8852). I wanted to keep this description separate from the page representing the entire team.
 
